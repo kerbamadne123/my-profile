@@ -5,7 +5,8 @@
     <style>
       h1,
       h3 {
-        color: brown;
+        /* color: brown; */
+        color: #db11db;
         background-color: bisque;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
@@ -15,9 +16,46 @@
       #areaSequare {
         color: chocolate;
       }
-      .formula {
+      .formula,
+      #name,
+      #company {
         color: red;
         font-family: Arial, Helvetica, sans-serif;
+      }
+      #headingFormulae,
+      .headingFormulae {
+        /* padding: 10px; */
+        /* border-width: 5px; */
+        /* border-style: solid; */
+        /* border-color: chocolate; */
+
+        /* sort hand property */
+        /* border: 2px solid saddlebrown;
+        padding-left: 20px;
+        padding-top: 30px;
+        margin-left: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 100px;
+        border-radius: 20px; */
+
+        /* sort hand property */
+
+        /* border-bottom: 2px;
+        border-style: solid;
+        border-bottom-color: chocolate; */
+        /* sort hand property */
+
+        /* border: 2px solid saddlebrown; */
+        /* sort hand property */
+
+        /* border-left: 2px;
+        border-left: solid;
+        border-left-color: chocolate; */
+
+        /* sort hand property */
+
+        /* border: 2px solid saddlebrown; */
       }
     </style>
   </head>
@@ -25,19 +63,22 @@
   <body>
     <h1>How to introduce your self ?</h1>
     <p>
-      My name is kerba madne,Iam grauate pass out fom Nagpur University<br />
+      My name is <i><strong id="name">kerba madne</strong></i
+      >,Iam grauate pass out fom Nagpur University<br />
       <strong>
         My Technology stack is HTML5,CSS,JavaScript,TypeScript,Angular</strong
       ><br />
-      Currenty I am working in SevenMind here got appportunity to work on
-      project name<br />
+      Currenty I am working in <span id="company">SevenMind</span> here got
+      appportunity to work on project name<br />
       Project desciption is 4 to 5<br />Roles and responsibilities. <br />
       About HSC and SSC marks<br />
       About your family <br />
       Personal strength <br />
       Your hobbies
     </p>
-    <h3>Formulae</h3>
+    <h3 id="headingFormulae">Formulae</h3>
+    <h3 class="headingFormulae">generalFormulae</h3>
+
     <p id="areaSequare">Area of Sequare=side <sup>2</sup></p>
     <p class="formula">Area of Circle=PI r <sup>2</sup></p>
     <p>Molecule Formula of water=H <sub>2</sub>O</p>

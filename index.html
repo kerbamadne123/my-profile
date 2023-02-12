@@ -12,10 +12,20 @@
         color: rgb(255, 0, 85);
         background-color: rgb(204, 255, 0);
       }
+      .header{
+        border: 10px solid chocolate
+      }
+      .body{
+        background-color:skyblue;
+      }
+      .follow{
+        font: 300;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+      }
     </style>
   </head>
-  <body>
-    <header>
+  <body class="body">
+    <header class="header">
       <i class="fa fa-user" aria-hidden="true"></i>
       <strong id="name">Kerba Madne</strong>&nbsp;&nbsp;&nbsp;&nbsp;
       <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -33,11 +43,11 @@
       <a href="contact.html" target="myFrame">contactUs</a>&nbsp;&nbsp;
     </nav>
     <br /><br />
-    <iframe width="1050px" height="550px" name="myFrame"> </iframe>
+    <iframe width="1050px" height="550px" name="myFrame" src="home.html"> </iframe>
     <br />
 
     <footer>
-      <strong>Fellow Me:&nbsp;&nbsp;</strong>
+      <strong class="follow">Follow Me:&nbsp;&nbsp;</strong>
       <i class="fa fa-instagram" aria-hidden="true"></i>
       <a href="https://www.instagram.com/">Instagram</a>
       <a href="https://www.Facebook.com/">Facebook</a>
